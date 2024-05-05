@@ -3,7 +3,20 @@ import os
 import glob
 
 
+def convert_tags(tag):
+    """
+    Used to convert italics to md
+    """
+    if tag.name == "em":
+        return f"*{tag.text.strip()}*"
+    return tag.text
+
+
 def parse_into_markdown(directory_path):
+    """
+    A function that takes in a directory path then parses every page of the Daily Stoic into
+    Markdown that will then be used to render a webpage
+    """
     # Create MD Directory
     os.makedirs("Markdown_Files", exist_ok=True)
 
@@ -42,6 +55,23 @@ def parse_into_markdown(directory_path):
                 quote_source = entry.find(
                     "p", class_="x03-Chapter-Epigraph-Source"
                 ).text.strip()
+
+                # Parsing the Body of the pages
+                markdown_content = []
+
+                body_text = entry.find_all(
+                    "p", class_=lambda value: value and "-Body-Text" in value
+                )
+
+                for p in body_text:
+                    paragraph_text = ""
+                    for child in p.children:
+                        if child.name:
+                            paragraph_text += convert_tags(child)
+                        else:
+                            paragraph_text += child.string if child.string else ""
+
+                    markdown_content.append(paragraph_text.strip())
 
 
 directory_path = "extracted_contents/OEBPS/Text"
