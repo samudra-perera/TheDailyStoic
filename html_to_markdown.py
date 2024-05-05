@@ -18,11 +18,12 @@ def parse_into_markdown(directory_path):
     Markdown that will then be used to render a webpage
     """
     # Create MD Directory
-    os.makedirs("Markdown_Files", exist_ok=True)
+    markdown_directory = "Markdown_Files"
+    os.makedirs(markdown_directory, exist_ok=True)
 
     # Create the file pattern to iterate over
     file_pattern = os.path.join(directory_path, "part0*.xhtml")
-    file_paths = sorted(glob.glob(file_pattern))[9:10]
+    file_paths = sorted(glob.glob(file_pattern))[9:388]
 
     # Iterate over the file_paths
     for file_path in file_paths:
@@ -42,8 +43,19 @@ def parse_into_markdown(directory_path):
                     date = h3.contents[1].strip()
                     title = h3.contents[3].text.strip()
 
+                    if not date or not title:
+                        continue
+
+                # Initialize Markdown Content
+                markdown_content = f"# {date}\n## {title}\n\n"
+
                 # Finding the quotes
-                quote = entry.find("p", class_="x03-Chapter-Epigraph").text.strip()
+                quote_element = entry.find("p", class_="x03-Chapter-Epigraph")
+                if quote_element:
+                    quote = quote_element.text.strip()
+                else:
+                    continue
+
                 quote_2 = entry.find_all("p", class_="x03-Chapter-Epigraph-Verse")
 
                 # Adding subquotations to the original quote as per the book
@@ -55,10 +67,9 @@ def parse_into_markdown(directory_path):
                 quote_source = entry.find(
                     "p", class_="x03-Chapter-Epigraph-Source"
                 ).text.strip()
+                markdown_content += f"> {quote}\n\n*{quote_source}*\n\n"
 
                 # Parsing the Body of the pages
-                markdown_content = []
-
                 body_text = entry.find_all(
                     "p", class_=lambda value: value and "-Body-Text" in value
                 )
@@ -71,7 +82,14 @@ def parse_into_markdown(directory_path):
                         else:
                             paragraph_text += child.string if child.string else ""
 
-                    markdown_content.append(paragraph_text.strip())
+                    markdown_content += f"{paragraph_text}\n\n"
+
+                # Saving Content to Markdown
+                filename = f"{date.replace(' ', '_').replace('.', '')}.md"
+                filepath = os.path.join(markdown_directory, filename)
+                with open(filepath, "w", encoding="utf-8") as md_file:
+                    md_file.write(markdown_content)
+    print("MD files created successfully")
 
 
 directory_path = "extracted_contents/OEBPS/Text"
