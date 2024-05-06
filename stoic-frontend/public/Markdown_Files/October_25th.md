@@ -1,0 +1,13 @@
+# October 25th
+## TWO TASKS
+
+> “What, then, makes a person free from hindrance and self-determining? For wealth doesn’t, neither does high-office, state or kingdom—rather, something else must be found . . . in the case of living, it is the knowledge of how to live.”
+
+*—EPICTETUS, DISCOURSES, 4.1.62–64*
+
+You have two essential tasks in life: to be a good person and to pursue the occupation that you love. Everything else is a waste of energy and a squandering of your potential.
+
+How does one do that? OK, that’s a tougher question. But the philosophy we see from the Stoics makes it simple enough: say no to distractions, to destructive emotions, to outside pressure. Ask yourself: *What is it that only I can do? What is the best use of my limited time on this planet?* Try to do the right thing when the situation calls for it. Treat other people the way you would hope to be treated. And understand that every small choice and tiny matter is an opportunity to practice these larger principles.
+
+That’s it. That’s what goes into the most important skill of all: how to live.
+

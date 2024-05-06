@@ -1,0 +1,11 @@
+# February 4th
+## ON BEING INVINCIBLE
+
+> “Who then is invincible? The one who cannot be upset by anything outside their reasoned choice.”
+
+*—EPICTETUS, DISCOURSES, 1.18.21*
+
+Have you ever watched a seasoned pro handle the media? No question is too tough, no tone too pointed or insulting. They parry every blow with humor, poise, and patience. Even when stung or provoked, they *choose*not to flinch or react. They’re able to do this not only because of training and experience, but because they understand that reacting emotionally will only make the situation worse. The media is waiting for them to slip up or get upset, so to successfully navigate press events they have internalized the importance of keeping themselves under calm control.
+
+It’s unlikely you’ll face a horde of probing reporters bombarding you with insensitive questions today. But it might be helpful—whatever stresses or frustrations or overload that do come your way—to picture that image and use it as your model for dealing with them. Our reasoned choice—our *prohairesis*, as the Stoics called it—is a kind of invincibility that we can cultivate. We can shrug off hostile attacks and breeze through pressure or problems. And, like our model, when we finish, we can point back into the crowd and say, “Next!”
+

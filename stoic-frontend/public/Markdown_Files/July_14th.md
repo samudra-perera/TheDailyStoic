@@ -1,0 +1,11 @@
+# July 14th
+## A LITTLE KNOWLEDGE IS DANGEROUS
+
+> “Every great power is dangerous for the beginner. You must therefore wield them as you are able, but in harmony with nature.”
+
+*—EPICTETUS, DISCOURSES, 3.13.20*
+
+Great teachers are usually hardest on their most promising students. When teachers see potential, they want it to be fully realized. But great teachers are also aware that natural ability and quick comprehension can be quite dangerous to the student if left alone. Early promise can lead to overconfidence and create bad habits. Those who pick things up quickly are notorious for skipping the basic lessons and ignoring the fundamentals.
+
+Don’t get carried away. Take it slow. Train with humility.
+

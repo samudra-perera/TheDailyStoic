@@ -1,0 +1,13 @@
+# July 31st
+## YOUR CAREER IS NOT A LIFE SENTENCE
+
+> “How disgraceful is the lawyer whose dying breath passes while at court, at an advanced age, pleading for unknown litigants and still seeking the approval of ignorant spectators.”
+
+*—SENECA, ON THE BREVITY OF LIFE, 20.2*
+
+Every few years, a sad spectacle is played out in the news. An old millionaire, still lord of his business empire, is taken to court. Shareholders and family members go to court to argue that he is no longer mentally competent to make decisions—that the patriarch is not fit to run his own company and legal affairs. Because this powerful person refused to ever relinquish control or develop a succession plan, he is subjected to one of life’s worst humiliations: the public exposure of his most private vulnerabilities.
+
+We must not get so wrapped up in our work that we think we’re immune from the reality of aging and life. Who wants to be the person who can never let go? Is there so little meaning in your life that your only pursuit is work until you’re eventually carted off in a coffin?
+
+Take pride in your work. But it is not all.
+

@@ -1,0 +1,13 @@
+# March 14th
+## SELF-DECEPTION IS OUR ENEMY
+
+> “Zeno would also say that nothing is more hostile to a firm grasp on knowledge than self-deception.”
+
+*—DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 7.23*
+
+Self-deception, delusions of grandeur—these aren’t just annoying personality traits. Ego is more than just off-putting and obnoxious. Instead, it’s the sworn enemy of our ability to learn and grow.
+
+As Epictetus put it, “It is impossible for a person to begin to learn what he thinks he already knows.” Today, we will be unable to improve, unable to learn, unable to earn the respect of others if we think we’re already perfect, a genius admired far and wide. In this sense, ego and self-deception are the enemies of the things we wish to have because we delude ourselves into believing that we already possess them.
+
+So we must meet ego with the hostility and contempt that it insidiously deploys against us—to keep it away, if only for twenty-four hours at a time.
+
