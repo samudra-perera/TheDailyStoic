@@ -2,8 +2,6 @@ from bs4 import BeautifulSoup
 import os
 import glob
 
-# Test Comment for commits
-
 
 def convert_tags(tag):
     """
@@ -25,6 +23,7 @@ def parse_into_markdown(directory_path):
 
     # Create the file pattern to iterate over
     file_pattern = os.path.join(directory_path, "part0*.xhtml")
+    # Indexes for Jan 1st to Dec 31st taken from the book
     file_paths = sorted(glob.glob(file_pattern))[9:388]
 
     # Iterate over the file_paths
