@@ -76,9 +76,9 @@ const App = () => {
         </Markdown>
       </div>
       <div className="flex-grow"></div>
-      <div className="max-w-3xl p-6 py-14 pt-10 flex-none text-xs text-center pb-3">
+      <div className="max-w-3xl p-6 py-14 pt-10 flex-none text-xs text-center pb-3 text-slate-300">
         I do not own any of this content. These excerpts are taken from Ryan
-        Holiday's book, go{" "}
+        Holiday's <bdo dir="ltr"></bdo>ook, go{" "}
         <a
           href="https://twitter.com/RyanHoliday?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
           target="_blank"
