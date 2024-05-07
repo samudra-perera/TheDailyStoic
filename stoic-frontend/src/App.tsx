@@ -25,8 +25,15 @@ const App = () => {
   }, [today]);
 
   return (
-    <div className="min-h-screen flex justify-center bg-stone-50">
-      <div className="max-w-3xl p-6 py-14 pt-10">
+    <div className="min-h-screen flex flex-col justify-end items-end bg-stone-50">
+      <div className="max-w-3xl p-6 py-14 pt-10 flex-none">
+        <a
+          href="https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736"
+          target="_blank"
+        >
+          <h1 className="text-center text-2xl">The Daily Stoic</h1>
+          <h2 className="text-center pb-6">Ryan Holiday</h2>
+        </a>
         <Markdown
           options={{
             overrides: {
@@ -67,6 +74,26 @@ const App = () => {
         >
           {content}
         </Markdown>
+      </div>
+      <div className="flex-grow"></div>
+      <div className="max-w-3xl p-6 py-14 pt-10 flex-none text-xs text-center pb-3">
+        I do not own any of this content. These excerpts are taken from Ryan
+        Holiday's book, go{" "}
+        <a
+          href="https://twitter.com/RyanHoliday?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          target="_blank"
+          className="text-slate-500 underline"
+        >
+          follow him
+        </a>{" "}
+        and checkout his{" "}
+        <a
+          href="https://ryanholiday.net/"
+          target="_blank"
+          className="text-slate-500 underline"
+        >
+          website.
+        </a>
       </div>
     </div>
   );
