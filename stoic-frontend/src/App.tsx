@@ -26,33 +26,40 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex justify-center bg-stone-50">
-      <div className="max-w-3xl p-6 py-14">
+      <div className="max-w-3xl p-6 py-14 pt-10">
         <Markdown
           options={{
             overrides: {
               h1: {
                 component: "h1",
                 props: {
-                  className: "text-blue-950 text-4xl text-center pb-1",
+                  className:
+                    "text-blue-950 text-2xl lg:text-3xl text-center pb-2",
                 },
               },
               h2: {
                 component: "h2",
                 props: {
                   className:
-                    "text-center text-2xl pb-2 text-blue-800 border-solid border-0 border-b border-blue-900 mb-6",
+                    "text-center text-xl lg:text-2xl pb-2 text-blue-800 border-solid border-0 border-b border-blue-900 mb-2 lg:mb-6",
                 },
               },
               blockquote: {
                 component: "blockquote",
                 props: {
-                  className: "p-6 pb-0 italic",
+                  className: "p-6 pb-0 italic text-zinc-500",
                 },
               },
               p: {
                 component: "p",
                 props: {
                   className: "pb-6",
+                },
+              },
+              ul: {
+                component: "ul",
+                props: {
+                  className: "italic pb-6 list-disc pl-5 text-blue-950",
                 },
               },
             },
