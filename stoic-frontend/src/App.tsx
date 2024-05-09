@@ -1,4 +1,5 @@
 import formatDate from "../utils/DateFormatter";
+import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";
 import Markdown from "markdown-to-jsx";
 
@@ -94,6 +95,7 @@ const App = () => {
         >
           website.
         </a>
+        <Analytics />
       </div>
     </div>
   );
